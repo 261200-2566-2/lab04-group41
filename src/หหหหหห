@@ -1,4 +1,10 @@
 ตำแหน่งอาชีพตัวละคร
+ใช้ String job()กำหนด jobให้ตัวละคร
+กำหนดค่า HP และ ATK ของตัวละครโดย
+สร้าง Public int HPmage ()
+          Public int ATKmage ()
+         Public int HPTank()
+         Public int ATKTank()
 
 1. Mage
 ความสามารถ:
@@ -17,16 +23,23 @@ ATK : 10
 HP : 300
 
 Accessories
-
+สร้าง Class Accessories  เพื่อเก็บอุปกรณ์สวมใส่ต่างๆ
 1.รองเท้าที่ถูกสาป(Enchanted Boots)
 รองเท้าเวทมนตร์ที่เพิ่มHPให้ตัวละคร
 ใส่แล้ว HP+50
-
+private int  enboot()
 2.หมวกน่ารักเพิ่มพลัง (Power-up lovely hat)
 หมวกที่ใส่แล้ว จะเพิ่ม ATK ให้ตัวละคร +10
-
+private int hat()
 3.สร้อยน้อยกลอยใจ (small neckless )
 defense + 30 ใส่แล้วมีเกราะป้องกัน
-
+private int neckless()
 4.ถุงเท้าเน่า (rotten sock)
 speed +50 ใส่แล้วเพิ่มความเร็วในการเคลื่อนที่
+private int spplus()
+
+Operation
+int gotATK()
+int gotHP()
+int gotDef()
+int gotspeed()
